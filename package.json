@@ -1,0 +1,24 @@
+{
+  "name": "source-tour-work",
+  "version": "1.0.0",
+  "description": "源码漫游记作业项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Q-kil/source-tour-work.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Q-kil/source-tour-work/issues"
+  },
+  "homepage": "https://github.com/Q-kil/source-tour-work#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "unbuild": "^0.9.4",
+    "vitest": "^0.24.5"
+  }
+}
