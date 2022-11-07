@@ -4,8 +4,14 @@
   "description": "源码漫游记作业项目",
   "main": "index.js",
   "scripts": {
+    "build:utils": "pnpm run --filter @xiaoxiang/utils build",
+    "build:reactivity": "pnpm run --filter @xiaoxiang/reactivity build",
+    "build": "pnpm run --filter=\"@xiaoxiang/*\" build",
     "test": "vitest packages/",
-    "coverage": "vitest run --coverage"
+    "test:once": "vitest run packages/",
+    "coverage": "vitest run --coverage",
+    "lint": "eslint packages/**/src",
+    "lint:fix": "eslint packages/**/src --fix"
   },
   "repository": {
     "type": "git",
@@ -23,6 +29,8 @@
     "vitest": "^0.24.5"
   },
   "dependencies": {
-    "@vitest/coverage-c8": "^0.24.5"
+    "@antfu/eslint-config": "^0.29.3",
+    "@vitest/coverage-c8": "^0.24.5",
+    "eslint": "^8.27.0"
   }
 }

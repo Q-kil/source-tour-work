@@ -1,9 +1,12 @@
 {
-  "name": "reactivity",
+  "name": "@xiaoxiang/reactivity",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "unbuild",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
