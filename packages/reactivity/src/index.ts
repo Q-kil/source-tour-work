@@ -4,3 +4,6 @@ import { isObject } from '@xiaoxiang/utils'
 
 export const ret = isObject({})
 // console.log('ret', ret)
+
+export { effect,trigger,track } from './effect'
+export { reactive } from './reactive'
